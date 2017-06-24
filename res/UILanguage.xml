@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SourceCodeTool>
+    <Language name="Chinese">
+        <WindowTitle>微型源代码工具</WindowTitle>
+        <FileMenu>文件</FileMenu>
+        <ViewMenu>视图</ViewMenu>
+        <FunctionMenu>功能</FunctionMenu>
+        <ThemeMenu>主题</ThemeMenu>
+        <HelpMenu>帮助</HelpMenu>
+        <Open>打开文件</Open>
+        <OpenDir>打开文件夹</OpenDir>
+        <Close>关闭</Close>
+        <CloseAll>关闭所有</CloseAll>
+        <Exit>退出</Exit>
+        <ToolBar>工具栏</ToolBar>
+        <Font>字体</Font>
+        <Language>语言</Language>
+        <Theme>主题</Theme>
+        <Find>查找</Find>
+        <FindDir>在文件夹查找</FindDir>
+        <Calculate>统计</Calculate>
+        <Default>默认</Default>
+        <Export>导出</Export>
+        <Import>导入</Import>
+        <CalcWindowTitle>统计</CalcWindowTitle>
+        <FindWindowTitle>查找</FindWindowTitle>
+        <DirLabel>选择目录</DirLabel>
+        <Hint>请选择目录</Hint>
+        <TargetLabel>查找目标</TargetLabel>
+        <FilterLabel>添加过滤器</FilterLabel>
+        <Filter>过滤器</Filter>
+        <Start>开始</Start>
+        <Pause>暂停</Pause>
+        <Stop>停止</Stop>
+        <Regex>正则表达式</Regex>
+        <Location>位置</Location>
+        <Size>大小 (KB)</Size>
+        <TotalLines>总行数</TotalLines>
+        <Lines>行数</Lines>
+        <Words>字数</Words>
+        <Found>找到</Found>
+        <ErrorInfo>错误信息</ErrorInfo>
+    </Language>
+    <Language name="English">
+        <WindowTitle>SourceCodeTool</WindowTitle>
+        <FileMenu>File</FileMenu>
+        <ViewMenu>View</ViewMenu>
+        <FunctionMenu>Function</FunctionMenu>
+        <ThemeMenu>Theme</ThemeMenu>
+        <HelpMenu>Help</HelpMenu>
+        <Open>Open File</Open>
+        <OpenDir>Open Folder</OpenDir>
+        <Close>Close</Close>
+        <CloseAll>Close All</CloseAll>
+        <Exit>Exit</Exit>
+        <ToolBar>Tool Bar</ToolBar>
+        <Font>Font</Font>
+        <Language>Language</Language>
+        <Theme>Theme</Theme>
+        <Find>Find</Find>
+        <FindDir>Find In Folder</FindDir>
+        <Calculate>Calculate</Calculate>
+        <Default>Default</Default>
+        <Export>Export</Export>
+        <Import>Import</Import>
+        <CalcWindowTitle>Calculate</CalcWindowTitle>
+        <FindWindowTitle>Find</FindWindowTitle>
+        <DirLabel>Select Directory</DirLabel>
+        <Hint>Please select a directory</Hint>
+        <TargetLabel>Target string</TargetLabel>
+        <FilterLabel>Add Filters</FilterLabel>
+        <Filter>Filter</Filter>
+        <Start>Start</Start>
+        <Pause>Pause</Pause>
+        <Stop>Stop</Stop>
+        <Regex>Regex</Regex>
+        <Location>Location</Location>
+        <Size>Size (KB)</Size>
+        <Lines>Lines</Lines>
+        <TotalLines>Total Lines</TotalLines>
+        <Words>Words</Words>
+        <Found>Found</Found>
+        <ErrorInfo>Error Information</ErrorInfo>
+    </Language>
+</SourceCodeTool>

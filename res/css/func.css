@@ -1,0 +1,129 @@
+QPushButton{
+    background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(214, 214, 214, 255), stop:0.5 rgba(236, 236, 236, 255));
+    border: 1px solid rgb(124, 124, 124);
+    border-radius:5px;
+}
+QPushButton:hover{
+    background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(181, 225, 250, 255), stop:0.5 rgba(222, 242, 251, 255));
+    border-radius:5px;
+    border: 1px solid #3C80B1;
+}
+QPushButton:pressed{
+    background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(134, 198, 233, 255), stop:0.5 rgba(206, 234, 248, 255));
+    border-radius:5px;
+    border: 1px solid #5F92B2;
+}
+
+/**********表头**********/
+/*
+QHeaderView{
+        border: none;
+        border-bottom: 3px solid rgb(0, 78, 161);
+        background: transparent;
+        min-height: 30px;
+}
+QHeaderView::section:horizontal {
+        border: none;
+        color: rgb(2, 65, 132);
+        background: transparent;
+        padding-left: 5px;
+}
+QHeaderView::section:horizontal:hover {
+        color: white;
+        background: rgb(0, 78, 161);
+}
+QHeaderView::section:horizontal:pressed {
+        color: white;
+        background: rgb(6, 94, 187);
+} */
+
+/**********表格**********/
+/*
+QTableView {
+        border: 1px solid rgb(111, 156, 207);
+        background: rgb(224, 238, 255);
+        gridline-color: rgb(111, 156, 207);
+}
+QTableView::item {
+        padding-left: 5px;
+        padding-right: 5px;
+        border: none;
+        background: white;
+        border-right: 1px solid rgb(111, 156, 207);
+        border-bottom: 1px solid rgb(111, 156, 207);
+}
+QTableView::item:selected {
+        background: rgba(255, 255, 255, 100);
+}
+QTableView::item:selected:!active {
+        color: rgb(65, 65, 65);
+}
+QTableView::indicator {
+        width: 20px;
+        height: 20px;
+} */
+
+/**********下拉列表**********/
+QComboBox {
+     /* height: 25px;
+        border-radius: 4px;
+        border: 1px solid rgb(111, 156, 207);
+        background: white; */
+    background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(214, 214, 214, 255), stop:0.5 rgba(236, 236, 236, 255));
+    border: 1px solid rgb(124, 124, 124);
+    border-radius:5px;
+}
+QComboBox:enabled {
+    color: rgb(84, 84, 84);
+}
+QComboBox:!enabled {
+    color: rgb(80, 80, 80);
+}
+QComboBox:enabled:hover {
+        /*color: rgb(51, 51, 51);*/
+    background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, stop:0.494318 rgba(181, 225, 250, 255), stop:0.5 rgba(222, 242, 251, 255));
+    border-radius:5px;
+    border: 1px solid #3C80B1;
+}
+/*
+QComboBox::drop-down {
+        width: 20px;
+        border: none;
+        background: transparent;
+}
+QComboBox::drop-down:hover {
+        background: rgba(255, 255, 255, 30);
+}*/
+
+/**********输入框**********/
+QLineEdit {
+    border-radius: 4px;
+    height: 25px;
+    border: 1px solid rgb(111, 156, 207);
+    background: white;
+}
+QLineEdit:enabled {
+    color: rgb(84, 84, 84);
+}
+QLineEdit:enabled:hover, QLineEdit:enabled:focus {
+    color: rgb(51, 51, 51);
+}
+QLineEdit:!enabled {
+    color: rgb(80, 80, 80);
+}
+
+QLabel {
+    color: rgb(56, 99, 154);
+    border: 1px solid rgb(111, 156, 207);
+    font-size: 15px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+
+/**********提示**********/
+QToolTip{
+    border: 1px solid rgb(111, 156, 207);
+    background: white;
+    color: rgb(51, 51, 51);
+}

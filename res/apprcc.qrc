@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/asm.png</file>
+        <file>image/calculate.png</file>
+        <file>image/cpp.png</file>
+        <file>image/close.png</file>
+        <file>image/close_all.png</file>
+        <file>image/cs.png</file>
+        <file>image/unknown.png</file>
+        <file>image/exit.png</file>
+        <file>image/find.png</file>
+        <file>image/find_dir.png</file>
+        <file>image/dir.png</file>
+        <file>image/h.png</file>
+        <file>image/html.png</file>
+        <file>image/java.png</file>
+        <file>image/json.png</file>
+        <file>image/logo.png</file>
+        <file>image/open.png</file>
+        <file>image/open_dir.png</file>
+        <file>image/py.png</file>
+        <file>image/sh.png</file>
+        <file>image/txt.png</file>
+        <file>image/xml.png</file>
+    </qresource>
+</RCC>

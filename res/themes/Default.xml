@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+TTHEMEheme file is a reference to Notepad++'s defaTHEMEheme file.
+I cut some content, as this application is simple and only supports several kinds of syntax highlighting.
+-->
+<SourceCodeTool>
+    <LexerStyles>
+        <LexerType name="asm" desc="Assembly" ext="">
+            <WordsStyle name="Default" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="Comment" fgColor="008000" bgColor="FFFFFF" />
+            <WordsStyle name="Number" fgColor="FF8000" bgColor="FFFFFF" />
+            <WordsStyle name="String" fgColor="808080" bgColor="FFFFFF" />
+            <WordsStyle name="Operator" fgColor="000080" bgColor="FFFFFF" />
+            <WordsStyle name="Identifier" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="CPU Instruction" fgColor="0000FF" bgColor="FFFFFF" />
+            <WordsStyle name="MATH Instruction" fgColor="0080C0" bgColor="FFFFFF" />
+            <WordsStyle name="REGISTER" fgColor="8080FF" bgColor="FFFFCC" />
+            <WordsStyle name="DIRECTIVE" fgColor="0080FF" bgColor="FFFFFF" />
+            <WordsStyle name="DIRECTIVE OPERAND" fgColor="000080" bgColor="FFFFFF" />
+            <WordsStyle name="CommentBlock" fgColor="008000" bgColor="FFFFFF" />
+            <WordsStyle name="Character" fgColor="808000" bgColor="FFFFFF" />
+            <WordsStyle name="EXT Instruction" fgColor="804000" bgColor="FFFFFF" />
+        </LexerType>
+        <LexerType name="c" desc="C" ext="">
+            <WordsStyle name="Preprocessor" fgColor="804000" bgColor="FFFFFF" />
+            <WordsStyle name="Default" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="Instruction WORD" fgColor="0000FF" bgColor="FFFFFF">ooooo</WordsStyle>
+            <WordsStyle name="Keywords" fgColor="8000FF" bgColor="FFFFFF" />
+            <WordsStyle name="Number" fgColor="FF8000" bgColor="FFFFFF" />
+            <WordsStyle name="String" fgColor="808080" bgColor="FFFFFF" />
+            <WordsStyle name="Character" fgColor="808080" bgColor="FFFFFF" />
+            <WordsStyle name="Operator" fgColor="000080" bgColor="FFFFFF" />
+            <WordsStyle name="VERBATIM" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="REGEX" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="Comment" fgColor="008000" bgColor="FFFFFF" />
+            <WordsStyle name="CommentLine" fgColor="008000" bgColor="FFFFFF" />
+            <WordsStyle name="CommentDoc" fgColor="008080" bgColor="FFFFFF" />
+            <WordsStyle name="CommentLineDoc" fgColor="008080" bgColor="FFFFFF" />
+            <WordsStyle name="CommentDocKeyword" fgColor="008080" bgColor="FFFFFF" />
+            <WordsStyle name="CommentDocKeywordError" fgColor="008080" bgColor="FFFFFF" />
+            <WordsStyle name="PreprocessorComment" fgColor="008000" bgColor="FFFFFF" />
+            <WordsStyle name="PreprocessorCommentDoc" fgColor="008080" bgColor="FFFFFF" />
+        </LexerType>
+        <LexerType name="cpp" desc="C++" ext="">
+            <WordsStyle name="Preprocessor" fgColor="804000" bgColor="FFFFFF" />
+            <WordsStyle name="Default" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="Instruction WORD" fgColor="0000FF" bgColor="FFFFFF" />
+            <WordsStyle name="Keywords" fgColor="8000FF" bgColor="FFFFFF" />
+            <WordsStyle name="Number" fgColor="FF8000" bgColor="FFFFFF" />
+            <WordsStyle name="String" fgColor="808080" bgColor="FFFFFF" />
+            <WordsStyle name="Character" fgColor="808080" bgColor="FFFFFF" />
+            <WordsStyle name="Operator" fgColor="000080" bgColor="FFFFFF" />
+            <WordsStyle name="VERBATIM" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="REGEX" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="Comment" fgColor="008000" bgColor="FFFFFF" />
+            <WordsStyle name="CommentLine" fgColor="008000" bgColor="FFFFFF" />
+            <WordsStyle name="CommentDoc" fgColor="008080" bgColor="FFFFFF" />
+            <WordsStyle name="CommentLineDoc" fgColor="008080" bgColor="FFFFFF" />
+            <WordsStyle name="CommentDocKeyword" fgColor="008080" bgColor="FFFFFF" />
+            <WordsStyle name="CommentDocKeywordError" fgColor="008080" bgColor="FFFFFF" />
+            <WordsStyle name="PreprocessorComment" fgColor="008000" bgColor="FFFFFF" />
+            <WordsStyle name="PreprocessorCommentDoc" fgColor="008080" bgColor="FFFFFF" />
+        </LexerType>
+        <LexerType name="cs" desc="C#" ext="">
+            <WordsStyle name="Preprocessor" fgColor="804000" bgColor="FFFFFF" />
+            <WordsStyle name="Default" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="Instruction WORD" fgColor="0000FF" bgColor="FFFFFF">the_ID the_post have_posts wp_link_pages the_content</WordsStyle>
+            <WordsStyle name="Keywords" fgColor="8000FF" bgColor="FFFFFF" />
+            <WordsStyle name="Number" fgColor="FF8000" bgColor="FFFFFF" />
+            <WordsStyle name="String" fgColor="808080" bgColor="FFFFFF" />
+            <WordsStyle name="Character" fgColor="808080" bgColor="FFFFFF">$_POST $_GET $_SESSION</WordsStyle>
+            <WordsStyle name="Operator" fgColor="000080" bgColor="FFFFFF" />
+            <WordsStyle name="VERBATIM" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="REGEX" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="Comment" fgColor="008000" bgColor="FFFFFF" />
+            <WordsStyle name="CommentLine" fgColor="008000" bgColor="FFFFFF" />
+            <WordsStyle name="CommentDoc" fgColor="008080" bgColor="FFFFFF" />
+            <WordsStyle name="CommentLineDoc" fgColor="008080" bgColor="FFFFFF" />
+            <WordsStyle name="CommentDocKeyword" fgColor="008080" bgColor="FFFFFF" />
+            <WordsStyle name="CommentDocKeywordError" fgColor="008080" bgColor="FFFFFF" />
+            <WordsStyle name="PreprocessorComment" fgColor="008000" bgColor="FFFFFF" />
+            <WordsStyle name="PreprocessorCommentDoc" fgColor="008080" bgColor="FFFFFF" />
+        </LexerType>
+        <LexerType name="cmake" desc="CMakeFile" ext="cmake">
+            <WordsStyle name="Default" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="Comment" fgColor="008000" bgColor="FFFFFF" />
+            <WordsStyle name="String D" fgColor="808080" bgColor="FFFFFF" />
+            <WordsStyle name="String L" fgColor="808080" bgColor="FFFFFF">import</WordsStyle>
+            <WordsStyle name="String R" fgColor="808080" bgColor="FFFFFF">import</WordsStyle>
+            <WordsStyle name="COMMAND" fgColor="0000FF" bgColor="FFFFFF" />
+            <WordsStyle name="PARAMETER" fgColor="8000FF" bgColor="FFFFFF" />
+            <WordsStyle name="Variable" fgColor="FF8040" bgColor="FFFFFF" />
+            <WordsStyle name="USER DEFINED" fgColor="000080" bgColor="FFFFFF" />
+            <WordsStyle name="WHILEDEF" fgColor="0080FF" bgColor="FFFFFF" />
+            <WordsStyle name="FOREACHDEF" fgColor="008080" bgColor="FFFFFF" />
+            <WordsStyle name="IFDEF" fgColor="8000FF" bgColor="FFFFFF" />
+            <WordsStyle name="MACRODEF" fgColor="FF0000" bgColor="FFFFFF" />
+            <WordsStyle name="StringVariable" fgColor="808080" bgColor="FEFCF5" />
+            <WordsStyle name="Number" fgColor="804040" bgColor="FFFFFF" />
+        </LexerType>
+        <LexerType name="css" desc="CSS" ext="">
+            <WordsStyle name="Default" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="Tag" fgColor="0000FF" bgColor="FFFFFF" />
+            <WordsStyle name="CLASS" fgColor="FF0000" bgColor="FFFFFF" />
+            <WordsStyle name="PseudoClass" fgColor="FF8000" bgColor="FFFFFF" />
+            <WordsStyle name="UNKNOWN_PseudoClass" fgColor="FF8080" bgColor="FFFFFF" />
+            <WordsStyle name="Operator" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="Identifier" fgColor="8080C0" bgColor="FFFFFF" />
+            <WordsStyle name="UNKNOWN_Identifier" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="Value" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="Comment" fgColor="008000" bgColor="FFFFFF" />
+            <WordsStyle name="ID" fgColor="0080FF" bgColor="FFFFFF" />
+            <WordsStyle name="IMPORTANT" fgColor="FF0000" bgColor="FFFFFF" />
+            <WordsStyle name="DIRECTIVE" fgColor="0080FF" bgColor="FFFFFF" />
+        </LexerType>
+        <LexerType name="html" desc="HTML" ext="">
+            <WordsStyle name="Default" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="Comment" fgColor="008000" bgColor="FFFFFF" />
+            <WordsStyle name="Number" fgColor="FF0000" bgColor="FFFFFF" />
+            <WordsStyle name="DOUBLEString" fgColor="8000FF" bgColor="FFFFFF" />
+            <WordsStyle name="SINGLEString" fgColor="8000FF" bgColor="FFFFFF" />
+            <WordsStyle name="Tag" fgColor="0000FF" bgColor="FFFFFF" />
+            <WordsStyle name="TagEND" fgColor="0000FF" bgColor="FFFFFF" />
+            <WordsStyle name="TagUNKNOWN" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="ATTRIBUTE" fgColor="FF0000" bgColor="FFFFFF" />
+            <WordsStyle name="ATTRIBUTEUNKNOWN" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="SGMLDefault" fgColor="000000" bgColor="A6CAF0" />
+            <WordsStyle name="CDATA" fgColor="FF8000" bgColor="FFFFFF" />
+            <WordsStyle name="Value" fgColor="FF8000" bgColor="FEFDE0" />
+            <WordsStyle name="ENTITY" fgColor="000000" bgColor="FEFDE0" />
+        </LexerType>
+        <LexerType name="java" desc="Java" ext="">
+            <WordsStyle name="Preprocessor" fgColor="804000" bgColor="FFFFFF" />
+            <WordsStyle name="Default" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="Instruction WORD" fgColor="0000FF" bgColor="FFFFFF" />
+            <WordsStyle name="Keywords" fgColor="8000FF" bgColor="FFFFFF" />
+            <WordsStyle name="Number" fgColor="FF8000" bgColor="FFFFFF" />
+            <WordsStyle name="String" fgColor="808080" bgColor="FFFFFF" />
+            <WordsStyle name="Character" fgColor="808080" bgColor="FFFFFF" />
+            <WordsStyle name="Operator" fgColor="000080" bgColor="FFFFFF" />
+            <WordsStyle name="VERBATIM" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="REGEX" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="Comment" fgColor="008000" bgColor="FFFFFF" />
+            <WordsStyle name="CommentLine" fgColor="008000" bgColor="FFFFFF" />
+            <WordsStyle name="CommentDoc" fgColor="008080" bgColor="FFFFFF" />
+            <WordsStyle name="CommentLineDoc" fgColor="008080" bgColor="FFFFFF">param @projectDescription projectDescription @param</WordsStyle>
+            <WordsStyle name="CommentDocKeyword" fgColor="008080" bgColor="FFFFFF" />
+            <WordsStyle name="CommentDocKeywordError" fgColor="008080" bgColor="FFFFFF" />
+        </LexerType>
+        <LexerType name="python" desc="Python" ext="">
+            <WordsStyle name="Default" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="CommentLine" fgColor="008000" bgColor="FFFFFF" />
+            <WordsStyle name="Number" fgColor="FF0000" bgColor="FFFFFF" />
+            <WordsStyle name="String" fgColor="808080" bgColor="FFFFFF" />
+            <WordsStyle name="Character" fgColor="808080" bgColor="FFFFFF" />
+            <WordsStyle name="Keywords" fgColor="0000FF" bgColor="FFFFFF" />
+            <WordsStyle name="Triple" fgColor="FF8000" bgColor="FFFFFF" />
+            <WordsStyle name="TripleDOUBLE" fgColor="FF8000" bgColor="FFFFFF" />
+            <WordsStyle name="CLASSNAME" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="DefName" fgColor="FF00FF" bgColor="FFFFFF" />
+            <WordsStyle name="Operator" fgColor="000080" bgColor="FFFFFF" />
+            <WordsStyle name="Identifier" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="CommentBLOCK" fgColor="008000" bgColor="FFFFFF" />
+            <WordsStyle name="DECORATOR" fgColor="FF8000" bgColor="FFFFFF" />
+        </LexerType>
+        <LexerType name="xml" desc="XML" ext="">
+            <WordsStyle name="XMLSTART" fgColor="FF0000" bgColor="FFFF00" />
+            <WordsStyle name="XMLEND" fgColor="FF0000" bgColor="FFFF00" />
+            <WordsStyle name="Default" fgColor="000000" bgColor="FFFFFF" />
+            <WordsStyle name="Comment" fgColor="008000" bgColor="FFFFFF" />
+            <WordsStyle name="Number" fgColor="FF0000" bgColor="FFFFFF" />
+            <WordsStyle name="DOUBLEString" fgColor="8000FF" bgColor="FFFFFF" />
+            <WordsStyle name="SINGLEString" fgColor="8000FF" bgColor="FFFFFF" />
+            <WordsStyle name="Tag" fgColor="0000FF" bgColor="FFFFFF" />
+            <WordsStyle name="TagEND" fgColor="0000FF" bgColor="FFFFFF" />
+            <WordsStyle name="TagUNKNOWN" fgColor="0000FF" bgColor="FFFFFF" />
+            <WordsStyle name="ATTRIBUTE" fgColor="FF0000" bgColor="FFFFFF" />
+            <WordsStyle name="ATTRIBUTEUNKNOWN" fgColor="FF0000" bgColor="FFFFFF" />
+            <WordsStyle name="SGMLDefault" fgColor="000000" bgColor="A6CAF0" />
+            <WordsStyle name="CDATA" fgColor="FF8000" bgColor="FFFFFF" />
+        </LexerType>
+    </LexerStyles>
+    <GlobalStyles>
+        <!-- Attention : Don't modify the name of -->
+        <WidgetStyle name="Global override" fgColor="FFFF80" bgColor="FF8000" />
+        <WidgetStyle name="Default Style" fgColor="000000" bgColor="FFFFFF" />
+        <WidgetStyle name="Indent guideline" fgColor="C0C0C0" bgColor="FFFFFF" />
+        <WidgetStyle name="Brace highlight" fgColor="FF0000" bgColor="FFFFFF" />
+        <WidgetStyle name="Bad brace colour" fgColor="800000" bgColor="FFFFFF" />
+        <WidgetStyle name="Current line background colour" bgColor="E8E8FF" fgColor="0080C0" />
+        <WidgetStyle name="Selected text colour" bgColor="C0C0C0" fgColor="CC0000" />
+        <WidgetStyle name="Caret colour" fgColor="8000FF" bgColor="49483E" />
+        <WidgetStyle name="Edge colour" fgColor="80FFFF" bgColor="112435" />
+        <WidgetStyle name="Line number margin" fgColor="808080" bgColor="E4E4E4" />
+        <WidgetStyle name="Fold" fgColor="808080" bgColor="F3F3F3" />
+        <WidgetStyle name="Fold active" fgColor="FF0000" bgColor="2E3436" />
+        <WidgetStyle name="Fold margin" fgColor="FFFFFF" bgColor="E9E9E9" />
+        <WidgetStyle name="White space symbol" fgColor="FFB56A" bgColor="2E3436" />
+        <WidgetStyle name="Smart HighLighting" bgColor="00FF00" fgColor="FCAF3E" />
+        <WidgetStyle name="Find Mark Style" bgColor="FF0000" fgColor="555753" />
+        <WidgetStyle name="Mark Style 1" bgColor="00FFFF" fgColor="CC0000" />
+        <WidgetStyle name="Mark Style 2" bgColor="FF8000" fgColor="E0E2E4" />
+        <WidgetStyle name="Mark Style 3" bgColor="FFFF00" fgColor="E0E2E4" />
+        <WidgetStyle name="Mark Style 4" bgColor="8000FF" fgColor="FAAA3C" />
+        <WidgetStyle name="Mark Style 5" bgColor="008000" fgColor="FFCAB0" />
+        <WidgetStyle name="Incremental highlight all" bgColor="0080FF" fgColor="000000" />
+        <WidgetStyle name="Tags match highlighting" bgColor="8000FF" fgColor="FFCAB0" />
+        <WidgetStyle name="Tags attribute" bgColor="FFFF00" fgColor="000000" />
+        <WidgetStyle name="Active tab focused indicator" fgColor="FAAA3C" bgColor="FFFF00" />
+        <WidgetStyle name="Active tab unfocused indicator" fgColor="FFCAB0" bgColor="FF0000" />
+        <WidgetStyle name="Active tab text" fgColor="000000" bgColor="80FF00" />
+        <WidgetStyle name="Inactive tabs" fgColor="808080" bgColor="C0C0C0" />
+        <WidgetStyle name="URL hovered" fgColor="0000FF" bgColor="C0C0C0" />
+    </GlobalStyles>
+</SourceCodeTool>
