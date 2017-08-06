@@ -1,4 +1,5 @@
 import os
+from collections import deque
 
 from PyQt5.QtCore import QVariant, Qt, QModelIndex
 from PyQt5.QtGui import QStandardItemModel, QStandardItem
@@ -6,7 +7,6 @@ from PyQt5.QtGui import QStandardItemModel, QStandardItem
 from core.common import App
 from core.common.uilang import UILangHolder
 from res.resource import IconsHolder
-from util.queue import Queue
 
 """ This module defined all the Qt Models that Qt Views will use, each model is customized, means that 
     you don't need to modify it.
@@ -52,18 +52,18 @@ class DirModel(QStandardItemModel):
         """
         item = QStandardItem(self.icons[self.emap["dir"]], dir_path)
         self.appendRow(item)
-        queue = Queue()
-        queue.enqueue((dir_path, item))
-        while not queue.is_empty():
+        queue = deque()
+        queue.append((dir_path, item))
+        while len(queue):
             """ Only directories will be added to the queue, in each loop, a dir will be popped out
             """
-            (path, item) = queue.dequeue()
+            (path, item) = queue.popleft()
             for f in os.listdir(path):
                 file = os.path.join(path, f)
                 if os.path.isdir(file):
                     new = QStandardItem(self.icons[self.emap["dir"]], f)
                     item.appendRow(new)
-                    queue.enqueue((file, new))
+                    queue.append((file, new))
                 else:
                     (name, ext) = os.path.splitext(file)
                     if ext in self.emap_keys:

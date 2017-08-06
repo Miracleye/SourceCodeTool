@@ -1,5 +1,7 @@
 from PyQt5.QtGui import QIcon
 
+from res import apprcc
+
 
 class IconsHolder:
     """ The class holds all the icons that the application will use,

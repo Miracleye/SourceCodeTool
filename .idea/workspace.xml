@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db364667-0121-4476-9ea2-d158da204863" name="Default" comment="First commit, main functions are finished, including directory browser, hightlighting for c/c++, java and python, finding and calculating functions.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logging.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/util/const.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/util/kmp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/util/logger.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/util/queue.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/util/stack.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/util/switch.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/grep.py" afterPath="$PROJECT_DIR$/core/grep.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/model/model.py" afterPath="$PROJECT_DIR$/core/model/model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/walk.py" afterPath="$PROJECT_DIR$/core/walk.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ctrl/app.py" afterPath="$PROJECT_DIR$/ctrl/app.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/apprcc.py" afterPath="$PROJECT_DIR$/res/apprcc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/apprcc.qrc" afterPath="$PROJECT_DIR$/res/apprcc.qrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/config.ini" afterPath="$PROJECT_DIR$/res/config.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/langs.xml" afterPath="$PROJECT_DIR$/res/langs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/resource.py" afterPath="$PROJECT_DIR$/res/resource.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/themes/Default.xml" afterPath="$PROJECT_DIR$/res/themes/Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/themes/Solarized.xml" afterPath="$PROJECT_DIR$/res/themes/Solarized.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/func/calcwidget.py" afterPath="$PROJECT_DIR$/view/func/calcwidget.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/func/calcwidget.ui" afterPath="$PROJECT_DIR$/view/func/calcwidget.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/func/findwidget.py" afterPath="$PROJECT_DIR$/view/func/findwidget.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/func/findwidget.ui" afterPath="$PROJECT_DIR$/view/func/findwidget.ui" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="walk.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/walk.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>RC</find>
+      <find>self.icons[</find>
+      <find>gridL</find>
+      <find>count_</find>
+      <find>gridLayout</find>
+      <find>_tran\w+\(.*,</find>
+      <find>_tran\w+\(.*?,</find>
+      <find>font</find>
+      <find>target</find>
+      <find>find_label</find>
+      <find>AC</find>
+      <find>fontS.*&quot;</find>
+      <find>style.*?&quot;\d+&quot;</find>
+      <find>TYPEWORD</find>
+      <find>COMMENT</find>
+      <find>DOC</find>
+      <find>ERROR</find>
+      <find>comment</find>
+      <find>self.ui_lang</find>
+      <find>update</find>
+      <find>widget</find>
+      <find>dir_</find>
+      <find>DEFNAME</find>
+      <find>font.*/</find>
+      <find>ATTRIBUTE</find>
+      <find>TAG</find>
+      <find>const</find>
+      <find>exist_rule</find>
+      <find>comment_doc_rule</find>
+      <find>_ui</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>self.emap</replace>
+      <replace />
+      <replace>file_tool_bar</replace>
+      <replace>save</replace>
+      <replace>theme_types</replace>
+      <replace>langs</replace>
+      <replace>themes</replace>
+      <replace>IconsHolder</replace>
+      <replace>IconsHolder.get_icon_by_id(</replace>
+      <replace>grid_l</replace>
+      <replace>cmt</replace>
+      <replace>do_cnt</replace>
+      <replace>grid_layout</replace>
+      <replace>target_label</replace>
+      <replace>App</replace>
+      <replace>Keyword</replace>
+      <replace>co</replace>
+      <replace>Doc</replace>
+      <replace>Error</replace>
+      <replace>Comment</replace>
+      <replace>UILangHolder.get_lang</replace>
+      <replace>_widget</replace>
+      <replace>path</replace>
+      <replace>DEFNAME</replace>
+      <replace>/</replace>
+      <replace>Attribute</replace>
+      <replace>Tag</replace>
+      <replace>exist_type</replace>
+      <replace>doc_start</replace>
+      <replace>ui</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Miracleye &lt;zhou_software@outlook.com&gt;" />
+        <option value="Miracleye" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/UILanguage.xml" />
+        <option value="$PROJECT_DIR$/ctrl/calcctrl.py" />
+        <option value="$PROJECT_DIR$/view/expandview/frame.py" />
+        <option value="$PROJECT_DIR$/view/expandview/calcwindow.py" />
+        <option value="$PROJECT_DIR$/view/expandview/findwindow.py" />
+        <option value="$PROJECT_DIR$/ctrl/findctrl.py" />
+        <option value="$PROJECT_DIR$/res/apprcc.qrc" />
+        <option value="$PROJECT_DIR$/core/highlight/parser.py" />
+        <option value="$PROJECT_DIR$/core/highlight/basehighlighter.py" />
+        <option value="$PROJECT_DIR$/config.ini" />
+        <option value="$PROJECT_DIR$/ctrl/dbctrl.py" />
+        <option value="$PROJECT_DIR$/ctrl/mainctrl.py" />
+        <option value="$PROJECT_DIR$/core/common/config.py" />
+        <option value="$PROJECT_DIR$/view/expandview/calcwidget.py" />
+        <option value="$PROJECT_DIR$/view/expandview/findwidget.py" />
+        <option value="$PROJECT_DIR$/res/themes/Solarized.xml" />
+        <option value="$PROJECT_DIR$/langs.xml" />
+        <option value="$PROJECT_DIR$/core/highlight/holder.py" />
+        <option value="$PROJECT_DIR$/view/func/frame.py" />
+        <option value="$PROJECT_DIR$/res/css/func.css" />
+        <option value="$PROJECT_DIR$/res/css/b.css" />
+        <option value="$PROJECT_DIR$/view/func/edit.py" />
+        <option value="$PROJECT_DIR$/core/common/lang.py" />
+        <option value="$PROJECT_DIR$/core/highlight/s.py" />
+        <option value="$PROJECT_DIR$/core/file.py" />
+        <option value="$PROJECT_DIR$/core/common/App.py" />
+        <option value="$PROJECT_DIR$/core/highlight/theme.py" />
+        <option value="$PROJECT_DIR$/view/dirbrowser.py" />
+        <option value="$PROJECT_DIR$/core/calc.py" />
+        <option value="$PROJECT_DIR$/view/func/calcwidget.py" />
+        <option value="$PROJECT_DIR$/res/css/a.css" />
+        <option value="$PROJECT_DIR$/view/func/calcwindow.py" />
+        <option value="$PROJECT_DIR$/view/func/findwindow.py" />
+        <option value="$PROJECT_DIR$/view/func/findwidget.py" />
+        <option value="$PROJECT_DIR$/ctrl/find.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/view/codebrowser.py" />
+        <option value="$PROJECT_DIR$/view/messagebox.py" />
+        <option value="$PROJECT_DIR$/view/texteditor.py" />
+        <option value="$PROJECT_DIR$/util/kmp.py" />
+        <option value="$PROJECT_DIR$/ctrl/calc.py" />
+        <option value="$PROJECT_DIR$/util/btree.py" />
+        <option value="$PROJECT_DIR$/core/highlight/highlighter.py" />
+        <option value="$PROJECT_DIR$/res/themes/Default.xml" />
+        <option value="$PROJECT_DIR$/view/appframe.py" />
+        <option value="$PROJECT_DIR$/core/highlight/rule.py" />
+        <option value="$PROJECT_DIR$/ctrl/app.py" />
+        <option value="$PROJECT_DIR$/res/resource.py" />
+        <option value="$PROJECT_DIR$/core/grep.py" />
+        <option value="$PROJECT_DIR$/core/model/model.py" />
+        <option value="$PROJECT_DIR$/core/walk.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1064" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SourceCodeTool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SourceCodeTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SourceCodeTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SourceCodeTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SourceCodeTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SourceCodeTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SourceCodeTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ctrl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SourceCodeTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SourceCodeTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JetBrains\SourceCodeTool\view\expandview" />
+      <recent name="D:\JetBrains\SourceCodeTool" />
+      <recent name="D:\JetBrains\SourceCodeTool\res\image" />
+      <recent name="D:\JetBrains\SourceCodeTool\sccore\res" />
+      <recent name="D:\JetBrains\SourceCodeTool\sccore\res\image" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JetBrains\SourceCodeTool\res" />
+      <recent name="D:\JetBrains\SourceCodeTool\core\highlight" />
+      <recent name="D:\JetBrains\SourceCodeTool\view\expandview" />
+      <recent name="D:\JetBrains\SourceCodeTool\core\common" />
+      <recent name="D:\JetBrains\SourceCodeTool\core\model" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SourceCodeTool" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="btree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SourceCodeTool" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/btree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CodesCounter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SourceCodeTool" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodesCounter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="kmp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SourceCodeTool" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/kmp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SourceCodeTool" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SourceCodeTool" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SourceCodeTool" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SourceCodeTool" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.btree" />
+      <item index="2" class="java.lang.String" itemvalue="Python.CodesCounter" />
+      <item index="3" class="java.lang.String" itemvalue="Python.kmp" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.kmp" />
+        <item index="2" class="java.lang.String" itemvalue="Python.btree" />
+        <item index="3" class="java.lang.String" itemvalue="Python.CodesCounter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db364667-0121-4476-9ea2-d158da204863" name="Default" comment="" />
+      <created>1496739248050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1496739248050</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First commit, main functions are finished, including directory browser, hightlighting for c/c++, java and python, finding and calculating functions.">
+      <created>1498306813602</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1498306813602</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19065522" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23549885" sideWeight="0.5064447" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32790697" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32830626" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23604651" sideWeight="0.4935553" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39907193" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit, main functions are finished, including directory browser, hightlighting for c/c++, java and python, finding and calculating functions." />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit, main functions are finished, including directory browser, hightlighting for c/c++, java and python, finding and calculating functions." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="121" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/res/themes/Solarized.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="115" column="39" lean-forward="false" selection-start-line="115" selection-start-column="39" selection-end-line="115" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/func/calcwidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="91" column="34" lean-forward="true" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/func/findwidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1556">
+          <caret line="78" column="70" lean-forward="false" selection-start-line="78" selection-start-column="70" selection-end-line="78" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/func/calcwindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/func/startpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/messagebox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/calc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2048">
+          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctrl/find.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="984">
+          <caret line="49" column="39" lean-forward="true" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/common/App.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/common/uilang.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2096">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctrl/cbctrl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctrl/dbctrl.py" />
+    <entry file="file://$PROJECT_DIR$/util/stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/func/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/func/findwindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/css/test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/css/func.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="115" column="28" lean-forward="true" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/common/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="79" column="16" lean-forward="true" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="223" column="0" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="223" column="0" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/highlight/theme.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/codebrowser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/themes/Default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="147" column="47" lean-forward="true" selection-start-line="147" selection-start-column="47" selection-end-line="147" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/texteditor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-920">
+          <caret line="150" column="37" lean-forward="false" selection-start-line="150" selection-start-column="37" selection-end-line="150" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/appframe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="15" column="64" lean-forward="true" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/btree.py" />
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/apprcc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/langs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctrl/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="66" column="18" lean-forward="true" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/resource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/highlight/rule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3744">
+          <caret line="162" column="33" lean-forward="false" selection-start-line="162" selection-start-column="33" selection-end-line="162" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/kmp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/logger.py" />
+    <entry file="file://$PROJECT_DIR$/util/switch.py" />
+    <entry file="file://$PROJECT_DIR$/util/error.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/const.py" />
+    <entry file="file://$PROJECT_DIR$/core/highlight/parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/highlight/highlighter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="128" column="35" lean-forward="false" selection-start-line="128" selection-start-column="35" selection-end-line="128" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctrl/calc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/dirbrowser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/model/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2184">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/grep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/walk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

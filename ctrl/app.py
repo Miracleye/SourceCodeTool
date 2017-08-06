@@ -66,7 +66,7 @@ class AppController:
         if not path:
             return
         if not os.path.isdir(path):
-            QMessageBox.warning()
+            # QMessageBox.warning()
             return
         if path in self._open_dirs:
             return
